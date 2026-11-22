@@ -1,0 +1,24 @@
+name: 💬 의견 · 재미 / Feedback
+description: 재미있었던 것, 지루하거나 어려웠던 것 / What was fun, boring or confusing
+labels: ["enhancement"]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: 버전 줄 / Version line
+      description: 타이틀 화면 맨 아래 작은 글씨 / Small text at the bottom of the title screen
+      placeholder: "v0.2.0 · 09a878f · 2026-11-22"
+  - type: input
+    id: progress
+    attributes:
+      label: 어디까지 했나요? / How far did you get?
+      placeholder: "15일차 · 학교 앞 증축 2단계"
+  - type: textarea
+    id: feedback
+    attributes:
+      label: 하고 싶은 말 / Your feedback
+      description: |
+        예) 첫 계산은 어떻게 하는지 바로 알았나요? 동네 축제(16일차~)를 찾았나요? 안 열었다면 왜요?
+        e.g. Did you figure out the first checkout? Did you find the Town Festival (day 16+)? If you didn't hold one, why?
+    validations:
+      required: true

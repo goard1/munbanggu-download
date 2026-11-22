@@ -1,0 +1,61 @@
+name: 🐞 버그 제보 / Bug report
+description: 게임이 이상하게 동작했어요 / Something went wrong in the game
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        제보 고마워요! 아래를 채워 주면 어디서 문제가 났는지 찾기 쉬워요.
+        Thanks! The fields below help us find where it happened.
+  - type: input
+    id: version
+    attributes:
+      label: 버전 줄 / Version line
+      description: 타이틀 화면 맨 아래 작은 글씨 / Small text at the bottom of the title screen
+      placeholder: "v0.2.0 · 09a878f · 2026-11-22"
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: 폰 기종 · 안드로이드 버전 / Phone · Android version
+      placeholder: "갤럭시 S23 · Android 14"
+    validations:
+      required: true
+  - type: dropdown
+    id: language
+    attributes:
+      label: 게임 언어 / Game language
+      options:
+        - 한국어
+        - 繁體中文
+        - English
+    validations:
+      required: true
+  - type: input
+    id: when
+    attributes:
+      label: 슬롯 · 게임 날짜 · 언제 / Slot · in-game day · phase
+      description: 아침 / 영업 중 / 정산 중 / 이야기 장면 / 타이틀
+      placeholder: "슬롯 1 · 12일차 · 영업 중"
+    validations:
+      required: true
+  - type: textarea
+    id: before
+    attributes:
+      label: 바로 전에 한 행동 / What you did right before
+      placeholder: "정산 화면에서 앱을 껐다가 다시 켜서 이어하기를 눌렀어요"
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: 어떻게 됐나요? (생각한 것과 실제) / What happened? (expected vs. actual)
+      placeholder: "돈이 다시 빠졌어요 / 날짜가 그대로였어요 / 앱이 꺼졌어요"
+    validations:
+      required: true
+  - type: textarea
+    id: media
+    attributes:
+      label: 스크린샷 · 영상 / Screenshots · video
+      description: 여기에 끌어다 놓으면 올라가요 / Drag files here
