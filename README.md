@@ -20,7 +20,7 @@
 **[제보하기 (Issues → New issue)](https://github.com/goard1/munbanggu-download/issues/new/choose)** — GitHub 계정이 필요해요.
 
 이것만 적어 주면 고치기가 훨씬 쉬워요:
-1. **버전 줄** — 타이틀 화면 맨 아래 작은 글씨 (예: `v0.2.0 · 09a878f · 2026-11-22`)
+1. **버전 줄** — 타이틀 화면 맨 아래 작은 글씨 (예: `v0.3.0 · c91db43 · 2026-11-23`)
 2. 폰 기종 · 안드로이드 버전
 3. 게임 언어
 4. 슬롯 번호 · 게임 날짜(n일차) · 아침/영업 중/정산 중 언제였는지
@@ -29,6 +29,7 @@
 ## 버전 기록
 | 버전 | 날짜 | 소스 커밋 | 바뀐 점 |
 |---|---|---|---|
+| [0.3.0](https://github.com/goard1/munbanggu-download/releases/tag/test-20261123) | 2026-11-23 | `c91db43` | 영업 중에 껐다 켜도 그 시각부터 이어서 · 축제 노점 · 동네 명성 ★ · 단골 의뢰인·계절 의뢰 · 직원 이야기 가게 효과 · 엔딩 뒤 이번 주 목표·물려받기 · 밸런스 (엔딩 86일 안팎) |
 | [0.2.0](https://github.com/goard1/munbanggu-download/releases/tag/test-20261122-2) | 2026-11-22 | `09a878f` | 끄고 켜도 같은 날 이어하기 · 깨진 저장 보호 · 첫날 안내 · 새 그림 · 계절 · 동네 게시판 · 축제 · 업적 · 직원 이야기 |
 | [0.1.0](https://github.com/goard1/munbanggu-download/releases/tag/test-20261122) | 2026-11-22 | (기록 없음) | 첫 공개 테스트 |
 
@@ -36,6 +37,6 @@
 
 ---
 
-**English** — Test build of *Grandma's Stationery Shop* (Android 8.0+, ARM64). Download the APK from [Releases → Latest](https://github.com/goard1/munbanggu-download/releases/latest). Report bugs via [Issues](https://github.com/goard1/munbanggu-download/issues/new/choose) and include the version line shown at the bottom of the title screen.
+**English** — Test build of *Grandma's Corner Store* (Android 8.0+, ARM64). Download the APK from [Releases → Latest](https://github.com/goard1/munbanggu-download/releases/latest). Report bugs via [Issues](https://github.com/goard1/munbanggu-download/issues/new/choose) and include the version line shown at the bottom of the title screen.
 
 **繁體中文** — 測試版（Android 8.0 以上、ARM64）。請從 [Releases → Latest](https://github.com/goard1/munbanggu-download/releases/latest) 下載 APK，並透過 [Issues](https://github.com/goard1/munbanggu-download/issues/new/choose) 回報問題，附上標題畫面最下方的版本資訊。

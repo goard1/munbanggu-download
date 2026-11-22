@@ -7,7 +7,7 @@ body:
     attributes:
       label: 버전 줄 / Version line
       description: 타이틀 화면 맨 아래 작은 글씨 / Small text at the bottom of the title screen
-      placeholder: "v0.2.0 · 09a878f · 2026-11-22"
+      placeholder: "v0.3.0 · c91db43 · 2026-11-23"
   - type: input
     id: progress
     attributes:
